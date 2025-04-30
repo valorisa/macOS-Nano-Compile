@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Script d'installation de GNU nano 8.4 avec support UTF-8 sur macOS Sequoia
-# Hypothse : Homebrew est dj install
+# Hypothese : Homebrew est deja installe
 
 set -e
 

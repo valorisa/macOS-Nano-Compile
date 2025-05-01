@@ -27,7 +27,7 @@ Cette méthode vous donne la version la plus récente immédiatement et un contr
         ```
         xcode-select --install
         ```
-    c)   Suivez les instructions à l'écran. <u>Note</u> : Ressemble à ce qui suit quand tout est bon  :
+    c)   Suivez les instructions à l'écran. <u>Note</u> : Ressemble à ce qui suit quand tout est bon :
 
 ```text
     % xcode-select --install

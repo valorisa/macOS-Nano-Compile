@@ -24,7 +24,7 @@ Cette méthode vous donne la version la plus récente immédiatement et un contr
 **Xcode Command Line Tools :** Fournit le compilateur (Clang) et les outils de build (`make`, etc.).
     *Ouvrez Terminal (`Applications/Utilitaires/Terminal`).
     *   Exécutez :
-        ```bash
+        ```
         xcode-select --install
         ```
     *   Suivez les instructions à l'écran.

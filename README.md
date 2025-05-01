@@ -4,12 +4,12 @@ Ce guide explique comment compiler la version 8.4 de l'éditeur de texte GNU Nan
 
 Pourquoi la compilation manuelle de nano 8.4 sur macOS Sequoia ?
 
-Par défaut, macOS Sequoia intègre l’éditeur Pico (version 5.09) et la commande nano pointe en réalité vers ce binaire pico fourni par Apple . Pour disposer de GNU nano 8.4, il faut télécharger ses sources sur le site officiel et disposer des outils de compilation (Xcode Command Line Tools) ainsi que de la bibliothèque ncurses . Ensuite, il suffit de décompresser l’archive, de configurer le projet avec un préfixe adapté, de compiler avec `make`, puis d’installer avec `make install`.
+Par défaut, macOS Sequoia intègre l’éditeur Pico (version 5.09) et la commande nano pointe en réalité vers ce binaire pico fourni par Apple . Pour disposer de GNU nano 8.4, il faut télécharger ses sources sur le site officiel et disposer des outils de compilation (Xcode Command Line Tools) ainsi que de la bibliothèque `ncurses`. Ensuite, il suffit de décompresser l’archive, de configurer le projet avec un préfixe adapté, de compiler avec `make`, puis d’installer avec `make install`.
 
 Pourquoi nano renvoie à pico sur macOS Sequoia ?
 
 Sur macOS Sequoia, la commande nano référence un binaire pico ancien (version 5.09) fourni par Apple, et non GNU nano.
-Apple a choisi d’inclure pico, issu du client mail Pine (développé à l’Université de Washington), comme éditeur en ligne de commande par défaut pour des raisons historiques et de licence .
+Apple a choisi d’inclure pico, issu du client mail Pine (développé à l’Université de Washington), comme éditeur en ligne de commande par défaut pour des raisons historiques et de licence.
 En pratique, l’exécutable nano est un lien symbolique vers pico, ce qui explique pourquoi `nano --version` affiche « Pico 5.09 ».
 GNU nano vise historiquement à remplacer pico, mais cette version n’est pas celle livrée par Apple sur macOS Sequoia.
 

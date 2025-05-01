@@ -22,12 +22,12 @@ Cette méthode vous donne la version la plus récente immédiatement et un contr
 ### Prérequis
 
 **Xcode Command Line Tools :** Fournit le compilateur (Clang) et les outils de build (`make`, etc.).
-    *Ouvrez Terminal (`Applications/Utilitaires/Terminal`).
-    *   Exécutez :
+    a) Ouvrez Terminal (`Applications/Utilitaires/Terminal`).
+    b)   Exécutez :
         ```
         xcode-select --install
         ```
-    *   Suivez les instructions à l'écran.
+    c)   Suivez les instructions à l'écran.
 
 1. **Dépendances (via Homebrew) :** Nano a besoin de `ncurses` (interface) et `gettext` (internationalisation). Installer des versions via Homebrew est souvent préférable à celles du système pour une meilleure compatibilité et fonctionnalités (ex: UTF-8).
     * **Installer Homebrew** (si vous ne l'avez pas) :

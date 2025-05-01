@@ -29,10 +29,10 @@ Cette méthode vous donne la version la plus récente immédiatement et un contr
         ```
     c)   Suivez les instructions à l'écran. Ressemble à ce qui suit quand tout est bon  :
 
-    ```text
+```text
     % xcode-select --install
 xcode-select: note: Command line tools are already installed. Use "Software Update" in System Settings or the softwareupdate command line interface to install updates
-    ```
+```
 
 1. **Dépendances (via Homebrew) :** Nano a besoin de `ncurses` (interface) et `gettext` (internationalisation). Installer des versions via Homebrew est souvent préférable à celles du système pour une meilleure compatibilité et fonctionnalités (ex: UTF-8).
     * **Installer Homebrew** (si vous ne l'avez pas) :
